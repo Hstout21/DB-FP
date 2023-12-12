@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+
+{% block content %} 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card m-2 cb1 text-center">
+
+
+                <div class="card-body">
+
+                    <span class="card-number"></span>
+
+                    <h2 class="card-title mb-4">New Character</h2>
+
+
+                    <p class="card-text">Create a character.. start with your favorite class, pick out the level of your player, roll for stats, find equipment, and assign abilities.</p>
+                    <a href="create" class="btn btn-outline-light">Create!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card m-2 cb2 text-center">
+
+
+                <div class="card-body">
+
+                    <span class="card-number fw-bold"></span>
+
+                    <h2 class="card-title mb-4">View & Compare Characters</h2>
+
+
+                    <p class="card-text">View all saved chracters and see how they stack up against other archtypes throughout the D&D world.</p>
+                    <a href="locker" class="btn btn-outline-light">View!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

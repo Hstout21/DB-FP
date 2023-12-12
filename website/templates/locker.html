@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %} Locker {% endblock %}
+
+{% block content %} 
+
+<div class="container">
+
+    {% for p in players %}
+
+    <div class="d-flex justify-content-center">
+        <div class="card card-whole2 m-2 cb1 text-center">
+                    <div class="card-body">
+
+                            <span class="card-number">{{ p.level }}</span>
+        
+                            <h2>{{ p.player_name }},</h2>
+                            <h3 class="mb-4">The {{ p.class_name }}</h3>
+        
+        
+                            <p class="card-text">
+                                HP: {{ p.hp }} </br>
+                                AC: {{ p.ac }}
+                                Strength: {{ p.str_stat }}, Dexterity: {{ p.dex_stat }}</br>
+                                Constitution: {{ p.con_stat }}, Intelligence: {{ p.int_stat }}</br>
+                                Wisdom: {{ p.wis_stat }}, Charisma: {{ p.car_stat }}</br>
+                                Main Proficiency: {{ p.main_prof }} </br> </br>
+
+                                Armor Name: {{ p.armor_name }} </br>
+                                Physical Dmg/Turn (Avg): {{ p.weapon_dmg }} </br>
+                                Best Weapon: {{ p.weapon_name }} </br>
+
+                                {% if p.spell_name != "$" %}
+                                    Spell Dmg/Turn (Avg): {{ p.spell_dmg }} </br>
+                                    Best Spell: {{ p.spell_name }} </br>
+                                {% endif %}
+        
+                                {% if p.wildshape_name != "$" %}
+                                    Wildshape Name: {{ clist.skill2 }} </br>
+                                {% endif %}
+                            </p>
+
+                            <button type="button" class="btn btn-outline-light" onClick="deletePlayer({{ p.id }})">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+
+                    </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

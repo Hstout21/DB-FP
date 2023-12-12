@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %} Character Creation 1 {% endblock %}
+
+{% block content %} 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card m-2 cb1 text-center">
+
+
+                <div class="card-body">
+
+                    <h2 class="card-title mb-4">{{ clist.name }}</h2>
+
+
+                    <p class="card-text">
+                        
+                        Base HP: {{ clist.base_hp }} </br>
+                        HP Per Level: {{ clist.hp_per_lvl }} </br>
+                        Main Skill: {{ clist.skill1 }} </br>
+
+                        {% if clist.skill2 != "$$$" %}
+                            Second Skill: {{ clist.skill2 }} </br>
+                        {% endif %}
+
+                        Main Proficiency: {{ clist.main_prof }} </br>
+                        Total Attacks (Level Reqs): {{ 1 + clist.extra_atk }} </br>
+
+                        {% if clist.shield == 1 %}
+                            Sheild: +2 AC </br>
+                        {% endif %}
+                    </p>
+
+                    <a href="../create" class="btn btn-outline-light"><- Change Class</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card m-2 cb2 text-center">
+
+                <div class="card-body">
+
+                    <h2 class="card-title mb-4">Character Details</h2>
+
+                    <form method="POST"> 
+                        <div class="form-group">
+                            <h6 class="mb-2"> Character Name:</h6>
+                            <input type="cname" class="form-control" id="cname" name="cname" placeholder="Enter your {{ clist.name }}'s name!" />
+                        </div>
+                        <div class="form-group">
+                            <h6 class="mb-2"> Player Level:</h6>
+                            <input type="clvl" class="form-control" id="clvl" name="clvl" placeholder="Enter Level (1-20)" />
+                        </div>
+                    
+                        <button type="submit" class="btn btn-outline-light">Continue!</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

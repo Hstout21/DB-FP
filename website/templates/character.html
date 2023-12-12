@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+{% block title %} Character Creation 2 {% endblock %}
+
+{% block content %} 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card m-2 cb1 text-center">
+
+
+                <div class="card-body">
+
+                    <span class="card-number">{{ lvl }}</span>
+
+                    <h2>{{ name }},</h2>
+                    <h3 class="mb-4">The {{ clist.name }}</h3>
+
+
+                    <p class="card-text">
+                        HP: {{ clist.base_hp + (clist.hp_per_lvl * lvl)}} </br>
+                        Main Skill: {{ clist.skill1 }} </br>
+
+                        {% if clist.skill2 != "$$$" %}
+                            Second Skill: {{ clist.skill2 }} </br>
+                        {% endif %}
+
+                        Main Proficiency: {{ clist.main_prof }} </br>
+
+                        {% if lvl == 20 and clist.extra_atk > 2 %} Attacks Per Turn: 4</br>
+                        {% elif lvl > 10 and clist.extra_atk > 1 %} Attacks Per Turn: 3</br>
+                        {% elif lvl > 4 and clist.extra_atk > 0 %} Attacks Per Turn: 2 </br>
+                        {% else %} Attacks Per Turn: 1 </br>
+                        {% endif %}
+
+                        {% if clist.shield == 1 %}
+                            Sheild: +2 AC </br>
+                        {% endif %}
+                    </p>
+
+                    <a href="../../../createdetails/{{clist.id}}" class="btn btn-outline-light"><- Edit Details</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card card-cdet m-2 cb2 text-center">
+
+
+                <div class="card-body">
+
+                    <h2 class="card-title mb-4">Class Details</h2>
+
+                    <h6 class="mb-2"> Weapons:</h6>
+
+                    <form method="POST"> 
+
+                        <div class="scroll">
+                            <ul id="list">
+                                {% for i in clist.weapons %}
+                                    <li> 
+                                        {{ i.name }} {% if i.name != "Net" %} - {{ i.hit_dice }}, {{i.dmg_type }} {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 6px; margin-bottom: 18px;">
+                            <input type="wea" class="form-control" id="wea" name="wea" placeholder="Enter Weapon (Name Only)" />
+                        </div>
+
+                        <h6 class="mb-2"> Armor:</h6>
+
+                        <div class="scroll">
+                            <ul id="list">
+                                {% for i in clist.armor %}
+                                    <li> {{ i.name }} </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 6px; margin-bottom: 18px;">
+                            <input type="arm" class="form-control" id="arm" name="arm" placeholder="Enter Armor (Name Only)" />
+                        </div>
+
+                        {% if clist.id != 1 and clist.id != 5 and clist.id != 6 and clist.id != 9 %}
+                            
+                            <h6 class="mb-2"> Spells:</h6>
+
+                            <div class="scroll">
+                                <ul id="list">
+                                    {% for i in clist.spells %}
+                                        {% if lvl/2 >= i.spell_lvl %}
+                                            <li> {{ i.name }} </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 6px; margin-bottom: 18px;">
+                                <input type="spe" class="form-control" id="spe" name="spe" placeholder="Enter Spell (Name Only)" />
+                            </div>
+                        {% endif %}
+
+                        {% if clist.id == 4 %}
+
+                            <h6 class="mb-2"> Wildshapes:</h6>
+
+                            <div class="scroll">
+                                <ul id="list">
+                                    {% for i in clist.wildshape %}
+                                        <li> {{ i.name }} </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 6px; margin-bottom: 18px;">
+                                <input type="wil" class="form-control" id="wil" name="wil" placeholder="Enter Wildshape (Name Only)" />
+                            </div>
+                        {% endif %}
+
+                        {% if clist.skill2 == "$$$" %}
+
+                            <h6 class="mb-2"> Second Skill:</h6>
+
+                            <div class="scroll2 content-center">
+                                <ul id="list">
+                                        <li> Str (Strength) </li>
+                                        <li> Dex (Dexterity) </li>
+                                        <li> Con (Constitution) </li>
+                                        <li> Int (Intelligence) </li>
+                                        <li> Wis (Wisdom) </li>
+                                        <li> Cha (Charisma) </li>
+                                </ul>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 6px; margin-bottom: 18px;">
+                                <input type="ski" class="form-control" id="ski" name="ski" placeholder="Enter Skill (First 3 Letter Only)" />
+                            </div>
+                        {% endif %}
+
+                        <p class="card-text"> </p>
+                        <button type="submit" class="btn btn-outline-light">Create</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
