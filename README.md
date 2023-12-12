@@ -2,13 +2,15 @@
 <br />
 <div align="center">
   <h3 align="center">D&D Character Creator</h3>
-  <br />
   <h4 align="center">Hunter Stout</h3>
 </div>
 
-## Pip Requirements
+## Pip Reqs
 
-* Test
+* Flask==3.0.0
+* Flask_Login==0.6.3
+* flask_sqlalchemy==3.1.1
+* SQLAlchemy==2.0.23
 
 ## Built With
 
@@ -19,10 +21,3 @@
 * JQuery v3.5.1
 * SQLite3
 * SQLiteStudio
-
-<br />
-
-<!-- ABOUT THE PROJECT -->
-## Querry Types Used
-
-* Test
