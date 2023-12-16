@@ -1,0 +1,73 @@
+﻿class_id,id,name,ac_stat,ac_buff,req
+1,1,Padded,11,Dex,$
+1,2,Leather,11,Dex,$
+1,3,Studded Leather,12,Dex,$
+1,4,Hide,12,Dex2,$
+1,5,Chain Shirt,13,Dex2,$
+1,6,Scale Mail,14,Dex2,$
+1,7,Breast Plate,14,Dex2,$
+1,8,Half Plate,15,Dex2,$
+2,9,Padded,11,Dex,$
+2,10,Leather,11,Dex,$
+2,11,Studded Leather,12,Dex,$
+2,12,Hide,12,Dex2,$
+2,13,Chain Shirt,13,Dex2,$
+2,14,Scale Mail,14,Dex2,$
+2,15,Breast Plate,14,Dex2,$
+2,16,Half Plate,15,Dex2,$
+3,17,Padded,11,Dex,$
+3,18,Leather,11,Dex,$
+3,19,Studded Leather,12,Dex,$
+3,20,Hide,12,Dex2,$
+3,21,Chain Shirt,13,Dex2,$
+3,22,Scale Mail,14,Dex2,$
+3,23,Breast Plate,14,Dex2,$
+3,24,Half Plate,15,Dex2,$
+4,25,Padded,11,Dex,$
+4,26,Leather,11,Dex,$
+4,27,Studded Leather,12,Dex,$
+4,28,Hide,12,Dex2,$
+4,29,Chain Shirt,13,Dex2,$
+4,30,Scale Mail,14,Dex2,$
+4,31,Breast Plate,14,Dex2,$
+4,32,Half Plate,15,Dex2,$
+5,33,Padded,11,Dex,$
+5,34,Leather,11,Dex,$
+5,35,Studded Leather,12,Dex,$
+5,36,Hide,12,Dex2,$
+5,37,Chain Shirt,13,Dex2,$
+5,38,Scale Mail,14,Dex2,$
+5,39,Breast Plate,14,Dex2,$
+5,40,Half Plate,15,Dex2,$
+5,41,Ring Mail,14,$,$
+5,42,Chain Mail,16,$,Str13
+5,43,Splint,17,$,Str15
+5,44,Plate,18,$,Str15
+7,45,Padded,11,Dex,$
+7,46,Leather,11,Dex,$
+7,47,Studded Leather,12,Dex,$
+7,48,Hide,12,Dex2,$
+7,49,Chain Shirt,13,Dex2,$
+7,50,Scale Mail,14,Dex2,$
+7,51,Breast Plate,14,Dex2,$
+7,52,Half Plate,15,Dex2,$
+7,53,Ring Mail,14,$,$
+7,54,Chain Mail,16,$,Str13
+7,55,Splint,17,$,Str15
+7,56,Plate,18,$,Str15
+8,57,Padded,11,Dex,$
+8,58,Leather,11,Dex,$
+8,59,Studded Leather,12,Dex,$
+8,60,Hide,12,Dex2,$
+8,61,Chain Shirt,13,Dex2,$
+8,62,Scale Mail,14,Dex2,$
+8,63,Breast Plate,14,Dex2,$
+8,64,Half Plate,15,Dex2,$
+9,65,Padded,11,Dex,$
+9,66,Leather,11,Dex,$
+9,67,Studded Leather,12,Dex,$
+10,68,Mage Armor,13,Dex,Spell1
+11,69,Padded,11,Dex,$
+11,70,Leather,11,Dex,$
+11,71,Studded Leather,12,Dex,$
+12,72,Mage Armor,13,Dex,Spell1

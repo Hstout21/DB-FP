@@ -1,0 +1,13 @@
+﻿id,name,skill1,skill2,main_prof,base_hp,hp_per_lvl,extra_atk,shield
+1,Barbarian,Str,$$$,Intimidation,12,7,1,1
+2,Bard,Dex,Cha,Deception,8,5,1,0
+3,Cleric,Wis,Cha,Insight,8,5,0,1
+4,Druid,Wis,$$$,Nature,8,5,0,1
+5,Fighter,Str,$$$,Athletics,10,6,3,0
+6,Monk,Dex,Wis,Stealth,8,5,1,0
+7,Paladin,Str,Cha,Athletics,10,6,1,1
+8,Ranger,Dex,Wis,Nature,10,6,1,1
+9,Rogue,Dex,$$$,Stealth,8,5,0,0
+10,Sorcerer,Cha,$$$,Arcana,6,4,0,0
+11,Warlock,Cha,$$$,Persuasion,6,4,0,0
+12,Wizard,Int,$$$,Investigation,6,4,0,0

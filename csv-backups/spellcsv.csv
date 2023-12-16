@@ -1,0 +1,198 @@
+﻿class_id,id,name,spell_lvl,dmg_type,dmg_basestat,dmg_perlvl,hit_dice
+12,1,Vicious Mockery,0,Psychic,3,$,1d4
+12,2,Acid Splash,0,Acid,4,$,1d6
+12,3,Thorn Whip,0,Piercing,4,$,1d6
+12,4,Chill Touch,0,Necrotic,5,$,1d8
+12,5,Produce Flame,0,Fire,5,$,1d8
+12,6,Ray of Frost,0,Cold,5,$,1d8
+12,7,Sacred Flame,0,Radiant,5,$,1d8
+12,8,Shocking Grasp,0,Lightning,5,$,1d8
+12,9,Eldritch Blast,0,Force,6,$,1d10
+12,10,Fire Bolt,0,Fire,6,$,1d10
+12,11,Poison Spray,0,Poison,7,$,1d12
+12,12,Arms of Hadar,1,Necrotic,7,3,2d6
+12,13,Burning Hands,1,Fire,11,3,3d6
+12,14,Chromatic Orb,1,$,14,4,3d8
+12,15,Dissonant Whispers,1,Psychic,11,3,3d6
+12,16,Ensnaring Strike,1,Piercing,4,3,w+1d6/turn
+12,17,Guiding Bolt,1,Radiant,14,3,4d6
+12,18,Hail of Thorns,1,Piercing,6,5,w+1d10
+12,19,Hellish Rebuke,1,Fire,11,5,2d10
+12,20,Inflict Wounds,1,Necrotic,17,5,3d10
+12,21,Magic Missile,1,Force,11,3,1d4+1 x3
+12,22,Ray of Sickness,1,Poison,9,4,2d8
+12,23,Searing Smite,1,Fire,4,3,w+1d6/turn
+12,24,Thunderous Smite,1,Thunder,7,$,w+2d6
+12,25,Thunderwave,1,Thunder,9,4,2d8
+12,26,Witch Bolt,1,Lightning,7,6,1d12+1d12/turn
+12,27,Wrathful Smite,1,Psychic,4,$,w+1d6
+12,28,Branding Smite,2,Radiant,7,3,w+2d6
+12,29,Cloud of Daggers,2,Slashinging,10,4,4d4/turn
+12,30,Cordon of Arrows,2,Piercing,14,7,1d6 x4
+12,31,Flame Blade,2,Fire,11,2,3d6/turn
+12,32,Flaming Sphere,2,Fire,7,3,2d6/turn
+12,33,Heat Metal,2,Fire,9,4,2d8/turn
+12,34,Melf's Acid Arrow,2,Acid,15,5,4d4+2d4
+12,35,Moonbeam,2,Radiant,11,5,2d10/turn
+12,36,Scorching Ray,2,Fire,21,7,2d6 x3
+12,37,Shatter,2,Thunder,14,4,3d8
+12,38,Spike Growth,2,Piercing,5,$,2d4/square
+12,39,Spiritual Weapon,2,Force,5,2,1d8+WIS/turn
+12,40,Blinding Smite,3,Radiant,14,$,w+3d8
+12,41,Call Lightning,3,Lightning,17,5,3d10/turn
+12,42,Conjure Barrage,3,$,14,$,3d8
+12,43,Fireball,3,Fire,28,3,8d6
+12,44,Glyph of Warding (Explosive Runes),3,$,23,4,5d8
+12,45,Hunger of Hadar,3,Cold,14,$,2d6+2d6/turn
+12,46,Lightning Arrow,3,Lightning,18,4,4d8
+12,47,Lightning Bolt,3,Lightning,28,3,8d6
+12,48,Spirit Guardians,3,$,14,4,3d8/turn
+12,49,Vampiric Touch,3,Necrotic,11,3,3d6
+12,50,Blight,4,Necrotic,36,4,8d8
+12,51,Evard's Black Tentacles,4,Bludgeon,11,$,3d6/turn
+12,52,Fire Shield,4,Fire,9,$,2d8/attack
+12,53,Guardian of Faith,4,Radiant,20,$,20 (total 60)
+12,54,Ice Storm,4,Cold,23,4,2d8+4d6
+12,55,Mordenkainen's Faithful Hound,4,Piercing,18,$,4d8/turn
+12,56,Phantasmal Killer,4,Psychic,22,5,4d10/turn
+12,57,Staggering Smite,4,Psychic,14,$,w+4d6
+12,58,Wall of Fire,4,Fire,23,4,5d8/turn
+12,59,Animate Objects (Average),5,Bludgeon,27,5,"5 x 2d6+1
+"
+12,60,Banishing Smite,5,Force,28,$,w+5d10
+12,61,Bigby's Hand (punch),5,Force,12,8,4d8/turn
+12,62,Bigby's Hand (crush),5,$,5,6,2d6/turn
+12,63,Cloudkill,5,Poison,19,4,5d8/turn
+12,64,Cone of Cold,5,Cold,30,4,8d8
+12,65,Conjure Volley,5,$,30,$,8d8
+12,66,Destructive Wave,5,$,29,$,5d6+5d6
+12,67,Flame Strike,5,Fire,23,3,4d6+4d6
+12,68,Insect Plague,5,Piercing,18,5,4d10/turn
+12,69,Blade Barrier,6,Slashinging,28,$,6d10
+12,70,Chain Lightning,6,Lightning,38,38,10d8
+12,71,Circle of Death,6,Necrotic,23,6,8d6
+12,72,Disintegrate,6,Force,50,9,10d6+40
+12,73,Harm,6,Necrotic,41,$,14d6
+12,74,Otiluke's Freezing Sphere,6,Cold,29,3,10d6
+12,75,Sunbeam,6,Radiant,23,$,6d8/turn
+12,76,Wall of Thorns,6,Piercing,26,4,7d8/turn
+12,77,Delayed Blast Fireball,7,Fire,35,3,12d6 + 1d6/turn
+12,78,Finger of Death,7,Necrotic,51,$,7d8+30
+12,79,Fire Storm,7,Fire,32,$,7d10
+12,80,Mordenkainen's Sword,7,Force,11,$,3d10/turn
+12,81,Prismatic Spray,7,$,29,$,10d6
+12,82,Symbol (Death),7,Necrotic,46,$,10d10/turn
+12,83,Abi-Dalzim's Horrid Wilting,8,Necrotic,38,$,10d8
+12,84,Feeblemind,8,Psychic,14,$,4d6
+12,85,Incendiary Cloud,8,Fire,38,$,10d8/turn
+12,86,Sunburst,8,Radiant,35,$,12d6
+12,87,Tsunami,8,Bludgeon,28,$,6d10 -1d10/turn
+12,88,Meteor Swarm,9,$,90,$,20d6+20d6
+12,89,Prismatic Wall,9,$,29,$,10d6/layer
+12,90,Weird,9,Psychic,14,$,4d10/turn
+2,91,Vicious Mockery,0,Psychic,3,$,1d4
+2,92,Dissonant Whispers,1,Psychic,11,3,3d6
+2,93,Thunderwave,1,Thunder,9,4,2d8
+2,94,Cloud of Daggers,2,Slashinging,10,4,4d4/turn
+2,95,Heat Metal,2,Fire,9,4,2d8/turn
+2,96,Phantasmal Killer,4,Psychic,22,5,4d10/turn
+2,97,Shatter,2,Thunder,14,4,3d8
+2,98,Glyph of Warding (Explosive Runes),3,$,23,4,5d8
+2,99,Animate Objects (Average),5,Bludgeon,27,5,"5 x 2d6+1
+"
+2,100,Mordenkainen's Sword,7,Force,11,$,3d10/turn
+2,101,Symbol (Death),7,Necrotic,46,$,10d10/turn
+3,102,Flame Strike,5,Fire,23,3,4d6+4d6
+3,103,Insect Plague,5,Piercing,18,5,4d10/turn
+3,104,Blade Barrier,6,Slashinging,28,$,6d10
+3,105,Fire Storm,7,Fire,32,$,7d10
+3,106,Glyph of Warding (Explosive Runes),3,$,23,4,5d8
+3,107,Guiding Bolt,1,Radiant,14,3,4d6
+3,108,Harm,6,Necrotic,41,$,14d6
+3,109,Inflict Wounds,1,Necrotic,17,5,3d10
+3,110,Insect Plague,5,Piercing,18,5,4d10/turn
+3,111,Sacred Flame,0,Radiant,5,$,1d8
+3,112,Spirit Guardians,3,$,14,4,3d8/turn
+3,113,Spiritual Weapon,2,Force,5,2,1d8+WIS/turn
+3,114,Symbol (Death),7,Necrotic,46,$,10d10/turn
+7,115,Banishing Smite,5,Force,28,$,w+5d10
+7,116,Blinding Smite,3,Radiant,14,$,w+3d8
+7,117,Branding Smite,2,Radiant,7,3,w+2d6
+7,118,Destructive Wave,5,$,29,$,5d6+5d6
+7,119,Searing Smite,1,Fire,4,3,w+1d6/turn
+7,120,Thunderous Smite,1,Thunder,7,$,w+2d6
+7,121,Wrathful Smite,1,Psychic,4,$,w+1d6
+7,122,Staggering Smite,4,Psychic,14,$,w+4d6
+8,123,Conjure Barrage,3,$,14,$,3d8
+8,124,Conjure Volley,5,$,30,$,8d8
+8,125,Cordon of Arrows,2,Piercing,14,7,1d6 x4
+8,126,Ensnaring Strike,1,Piercing,4,3,w+1d6/turn
+8,127,Hail of Thorns,1,Piercing,6,5,w+1d10
+8,128,Lightning Arrow,3,Lightning,18,4,4d8
+8,129,Spike Growth,2,Piercing,5,$,2d4/square
+11,130,Arms of Hadar,1,Necrotic,7,3,2d6
+11,131,Blight,4,Necrotic,36,4,8d8
+11,132,Chill Touch,0,Necrotic,5,$,1d8
+11,133,Circle of Death,6,Necrotic,23,6,8d6
+11,134,Cloud of Daggers,2,Slashinging,10,4,4d4/turn
+11,135,Eldritch Blast,0,Force,6,$,1d10
+11,136,Finger of Death,7,Necrotic,51,$,7d8+30
+11,137,Hunger of Hadar,3,Cold,14,$,2d6+2d6/turn
+11,138,Hellish Rebuke,1,Fire,11,5,2d10
+11,139,Poison Spray,0,Poison,7,$,1d12
+11,140,Shatter,2,Thunder,14,4,3d8
+11,141,Witch Bolt,1,Lightning,7,6,1d12+1d12/turn
+11,142,Vampiric Touch,3,Necrotic,11,3,3d6
+4,143,Blight,4,Necrotic,36,4,8d8
+4,144,Call Lightning,3,Lightning,17,5,3d10/turn
+4,145,Flame Blade,2,Fire,11,2,3d6/turn
+4,146,Fire Storm,7,Fire,32,$,7d10
+4,147,Flaming Sphere,2,Fire,7,3,2d6/turn
+4,148,Heat Metal,2,Fire,9,4,2d8/turn
+4,149,Ice Storm,4,Cold,23,4,2d8+4d6
+4,150,Insect Plague,5,Piercing,18,5,4d10/turn
+4,151,Moonbeam,2,Radiant,11,5,2d10/turn
+4,152,Poison Spray,0,Poison,7,$,1d12
+4,153,Produce Flame,0,Fire,5,$,1d8
+4,154,Spike Growth,2,Piercing,5,$,2d4/square
+4,155,Sunbeam,6,Radiant,23,$,6d8/turn
+4,156,Sunburst,8,Radiant,35,$,12d6
+4,157,Wall of Fire,4,Fire,23,4,5d8/turn
+4,158,Thunderwave,1,Thunder,9,4,2d8
+4,159,Witch Bolt,1,Lightning,7,6,1d12+1d12/turn
+10,160,Acid Splash,0,Acid,4,$,1d6
+10,161,Blight,4,Necrotic,36,4,8d8
+10,162,Animate Objects (Average),5,Bludgeon,27,5,"5 x 2d6+1
+"
+10,163,Burning Hands,1,Fire,11,3,3d6
+10,164,Chill Touch,0,Necrotic,5,$,1d8
+10,165,Inflict Wounds,1,Necrotic,17,5,3d10
+10,166,Chromatic Orb,1,$,14,4,3d8
+10,167,Circle of Death,6,Necrotic,23,6,8d6
+10,168,Cloudkill,5,Poison,19,4,5d8/turn
+10,169,Cloud of Daggers,2,Slashinging,10,4,4d4/turn
+10,170,Cone of Cold,5,Cold,30,4,8d8
+10,171,Fire Bolt,0,Fire,6,$,1d10
+10,172,Disintegrate,6,Force,50,9,10d6+40
+10,173,Finger of Death,7,Necrotic,51,$,7d8+30
+10,174,Delayed Blast Fireball,7,Fire,35,3,12d6 + 1d6/turn
+10,175,Fire Storm,7,Fire,32,$,7d10
+10,176,Incendiary Cloud,8,Fire,38,$,10d8/turn
+10,177,Ice Storm,4,Cold,23,4,2d8+4d6
+10,178,Fireball,3,Fire,28,3,8d6
+10,179,Magic Missile,1,Force,11,3,1d4+1 x3
+10,180,Poison Spray,0,Poison,7,$,1d12
+10,181,Lightning Bolt,3,Lightning,28,3,8d6
+10,182,Insect Plague,5,Piercing,18,5,4d10/turn
+10,183,Meteor Swarm,9,$,90,$,20d6+20d6
+10,184,Prismatic Spray,7,$,29,$,10d6
+10,185,Ray of Frost,0,Cold,5,$,1d8
+10,186,Ray of Sickness,1,Poison,9,4,2d8
+10,187,Scorching Ray,2,Fire,21,7,2d6 x3
+10,188,Shatter,2,Thunder,14,4,3d8
+10,189,Shocking Grasp,0,Lightning,5,$,1d8
+10,190,Sunbeam,6,Radiant,23,$,6d8/turn
+10,191,Sunburst,8,Radiant,35,$,12d6
+10,192,Wall of Fire,4,Fire,23,4,5d8/turn
+10,193,Thunderwave,1,Thunder,9,4,2d8
+10,194,Witch Bolt,1,Lightning,7,6,1d12+1d12/turn

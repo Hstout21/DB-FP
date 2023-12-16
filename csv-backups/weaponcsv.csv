@@ -1,0 +1,252 @@
+﻿class_id,id,name,req_lvl,dmg_type,dmg_basestat,hit_dice,twohand
+1,1,Club,1,Bludgeon,2,1d4,0
+1,2,Dagger,1,Piercing,2,1d4,0
+1,3,Greatclub,1,Bludgeon,4,1d8,1
+1,4,Handaxe,1,Slashing,3,1d6,0
+1,5,Javelin,1,Piercing,3,1d6,0
+1,6,Light Hammer,1,Bludgeon,2,1d4,0
+1,7,Mace,1,Bludgeon,3,1d6,0
+1,8,Quarterstaff,1,Bludgeon,3,1d6,0
+1,9,Sickle,1,Slashing,2,1d4,0
+1,10,Spear,1,Piercing,3,1d6,0
+1,11,"Crossbow, Light",1,Piercing,4,1d8,1
+1,12,Dart,1,Piercing,2,1d4,0
+1,13,Shortbow,1,Piercing,3,1d6,1
+1,14,Sling,1,Bludgeon,2,1d4,0
+1,15,Battleaxe,1,Slashing,4,1d8,0
+1,16,Flail,1,Bludgeon,4,1d8,0
+1,17,Glaive,1,Slashing,5,1d10,1
+1,18,Greataxe,1,Slashing,6,1d12,1
+1,19,Greatsword,1,Slashing,6,2d6,1
+1,20,Halberd,1,Slashing,5,1d10,1
+1,21,Lance,1,Piercing,6,1d12,0
+1,22,Longsword,1,Slashing,4,1d8,0
+1,23,Maul,1,Bludgeon,6,2d6,1
+1,24,Morningstar,1,Piercing,4,1d8,0
+1,25,Pike,1,Piercing,5,1d10,1
+1,26,Rapier,1,Piercing,4,1d8,0
+1,27,Scimitar,1,Slashing,3,1d6,0
+1,28,Shortsword,1,Piercing,3,1d6,0
+1,29,Trident,1,Piercing,3,1d6,0
+1,30,War Pick,1,Piercing,4,1d8,0
+1,31,Warhammer,1,Bludgeon,4,1d8,0
+1,32,Whip,1,Slashing,2,1d4,0
+1,33,Blowgun,1,Piercing,1,1,0
+1,34,"Crossbow, hand",1,Piercing,3,1d6,0
+1,35,"Crossbow, heavy",1,Piercing,5,1d10,1
+1,36,Longbow,1,Piercing,4,1d8,1
+1,37,Net,1,$,0,$,0
+2,38,Club,1,Bludgeon,2,1d4,0
+2,39,Dagger,1,Piercing,2,1d4,0
+2,40,Greatclub,1,Bludgeon,4,1d8,1
+2,41,Handaxe,1,Slashing,3,1d6,0
+2,42,Javelin,1,Piercing,3,1d6,0
+2,43,Light Hammer,1,Bludgeon,2,1d4,0
+2,44,Mace,1,Bludgeon,3,1d6,0
+2,45,Quarterstaff,1,Bludgeon,3,1d6,0
+2,46,Sickle,1,Slashing,2,1d4,0
+2,47,Spear,1,Piercing,3,1d6,0
+2,48,"Crossbow, Light",1,Piercing,4,1d8,1
+2,49,Dart,1,Piercing,2,1d4,0
+2,50,Shortbow,1,Piercing,3,1d6,1
+2,51,Sling,1,Bludgeon,2,1d4,0
+2,52,Rapier,1,Piercing,4,1d8,0
+2,53,"Crossbow, hand",1,Piercing,3,1d6,0
+2,54,Longsword,1,Slashing,4,1d8,0
+2,55,Shortsword,1,Piercing,3,1d6,0
+3,56,Club,1,Bludgeon,2,1d4,0
+3,57,Dagger,1,Piercing,2,1d4,0
+3,58,Greatclub,1,Bludgeon,4,1d8,1
+3,59,Handaxe,1,Slashing,3,1d6,0
+3,60,Javelin,1,Piercing,3,1d6,0
+3,61,Light Hammer,1,Bludgeon,2,1d4,0
+3,62,Mace,1,Bludgeon,3,1d6,0
+3,63,Quarterstaff,1,Bludgeon,3,1d6,0
+3,64,Sickle,1,Slashing,2,1d4,0
+3,65,Spear,1,Piercing,3,1d6,0
+3,66,"Crossbow, Light",1,Piercing,4,1d8,1
+3,67,Dart,1,Piercing,2,1d4,0
+3,68,Shortbow,1,Piercing,3,1d6,1
+3,69,Sling,1,Bludgeon,2,1d4,0
+4,70,Club,1,Bludgeon,2,1d4,0
+4,71,Dagger,1,Piercing,2,1d4,0
+4,72,Javelin,1,Piercing,3,1d6,0
+4,73,Mace,1,Bludgeon,3,1d6,0
+4,74,Quarterstaff,1,Bludgeon,3,1d6,0
+4,75,Sickle,1,Slashing,2,1d4,0
+4,76,Spear,1,Piercing,3,1d6,0
+4,77,Dart,1,Piercing,2,1d4,0
+4,78,Sling,1,Bludgeon,2,1d4,0
+4,79,Scimitar,1,Slashing,3,1d6,0
+5,80,Club,1,Bludgeon,2,1d4,0
+5,81,Dagger,1,Piercing,2,1d4,0
+5,82,Greatclub,1,Bludgeon,4,1d8,1
+5,83,Handaxe,1,Slashing,3,1d6,0
+5,84,Javelin,1,Piercing,3,1d6,0
+5,85,Light Hammer,1,Bludgeon,2,1d4,0
+5,86,Mace,1,Bludgeon,3,1d6,0
+5,87,Quarterstaff,1,Bludgeon,3,1d6,0
+5,88,Sickle,1,Slashing,2,1d4,0
+5,89,Spear,1,Piercing,3,1d6,0
+5,90,"Crossbow, Light",1,Piercing,4,1d8,1
+5,91,Dart,1,Piercing,2,1d4,0
+5,92,Shortbow,1,Piercing,3,1d6,1
+5,93,Sling,1,Bludgeon,2,1d4,0
+5,94,Battleaxe,1,Slashing,4,1d8,0
+5,95,Flail,1,Bludgeon,4,1d8,0
+5,96,Glaive,1,Slashing,5,1d10,1
+5,97,Greataxe,1,Slashing,6,1d12,1
+5,98,Greatsword,1,Slashing,6,2d6,1
+5,99,Halberd,1,Slashing,5,1d10,1
+5,100,Lance,1,Piercing,6,1d12,0
+5,101,Longsword,1,Slashing,4,1d8,0
+5,102,Maul,1,Bludgeon,6,2d6,1
+5,103,Morningstar,1,Piercing,4,1d8,0
+5,104,Pike,1,Piercing,5,1d10,1
+5,105,Rapier,1,Piercing,4,1d8,0
+5,106,Scimitar,1,Slashing,3,1d6,0
+5,107,Shortsword,1,Piercing,3,1d6,0
+5,108,Trident,1,Piercing,3,1d6,0
+5,109,War Pick,1,Piercing,4,1d8,0
+5,110,Warhammer,1,Bludgeon,4,1d8,0
+5,111,Whip,1,Slashing,2,1d4,0
+5,112,Blowgun,1,Piercing,1,1,0
+5,113,"Crossbow, hand",1,Piercing,3,1d6,0
+5,114,"Crossbow, heavy",1,Piercing,5,1d10,1
+5,115,Longbow,1,Piercing,4,1d8,1
+5,116,Net,1,$,0,$,0
+6,117,Club,1,Bludgeon,2,1d4,0
+6,118,Dagger,1,Piercing,2,1d4,0
+6,119,Greatclub,1,Bludgeon,4,1d8,1
+6,120,Handaxe,1,Slashing,3,1d6,0
+6,121,Javelin,1,Piercing,3,1d6,0
+6,122,Light Hammer,1,Bludgeon,2,1d4,0
+6,123,Mace,1,Bludgeon,3,1d6,0
+6,124,Quarterstaff,1,Bludgeon,3,1d6,0
+6,125,Sickle,1,Slashing,2,1d4,0
+6,126,Spear,1,Piercing,3,1d6,0
+6,127,"Crossbow, Light",1,Piercing,4,1d8,1
+6,128,Dart,1,Piercing,2,1d4,0
+6,129,Shortbow,1,Piercing,3,1d6,1
+6,130,Sling,1,Bludgeon,2,1d4,0
+6,131,Shortsword,1,Piercing,3,1d6,0
+6,132,Unarmed Strike,1,Bludgeon,2,1d4,0
+6,133,Unarmed Strike,1,Bludgeon,3,1d6,0
+6,134,Unarmed Strike,1,Bludgeon,4,1d8,0
+6,135,Unarmed Strike,1,Bludgeon,5,1d10,0
+7,136,Club,1,Bludgeon,2,1d4,0
+7,137,Dagger,1,Piercing,2,1d4,0
+7,138,Greatclub,1,Bludgeon,4,1d8,1
+7,139,Handaxe,1,Slashing,3,1d6,0
+7,140,Javelin,1,Piercing,3,1d6,0
+7,141,Light Hammer,1,Bludgeon,2,1d4,0
+7,142,Mace,1,Bludgeon,3,1d6,0
+7,143,Quarterstaff,1,Bludgeon,3,1d6,0
+7,144,Sickle,1,Slashing,2,1d4,0
+7,145,Spear,1,Piercing,3,1d6,0
+7,146,"Crossbow, Light",1,Piercing,4,1d8,1
+7,147,Dart,1,Piercing,2,1d4,0
+7,148,Shortbow,1,Piercing,3,1d6,1
+7,149,Sling,1,Bludgeon,2,1d4,0
+7,150,Battleaxe,1,Slashing,4,1d8,0
+7,151,Flail,1,Bludgeon,4,1d8,0
+7,152,Glaive,1,Slashing,5,1d10,1
+7,153,Greataxe,1,Slashing,6,1d12,1
+7,154,Greatsword,1,Slashing,6,2d6,1
+7,155,Halberd,1,Slashing,5,1d10,1
+7,156,Lance,1,Piercing,6,1d12,0
+7,157,Longsword,1,Slashing,4,1d8,0
+7,158,Maul,1,Bludgeon,6,2d6,1
+7,159,Morningstar,1,Piercing,4,1d8,0
+7,160,Pike,1,Piercing,5,1d10,1
+7,161,Rapier,1,Piercing,4,1d8,0
+7,162,Scimitar,1,Slashing,3,1d6,0
+7,163,Shortsword,1,Piercing,3,1d6,0
+7,164,Trident,1,Piercing,3,1d6,0
+7,165,War Pick,1,Piercing,4,1d8,0
+7,166,Warhammer,1,Bludgeon,4,1d8,0
+7,167,Whip,1,Slashing,2,1d4,0
+7,168,Blowgun,1,Piercing,1,1,0
+7,169,"Crossbow, hand",1,Piercing,3,1d6,0
+7,170,"Crossbow, heavy",1,Piercing,5,1d10,1
+7,171,Longbow,1,Piercing,4,1d8,1
+7,172,Net,1,$,0,$,0
+8,173,Club,1,Bludgeon,2,1d4,0
+8,174,Dagger,1,Piercing,2,1d4,0
+8,175,Greatclub,1,Bludgeon,4,1d8,1
+8,176,Handaxe,1,Slashing,3,1d6,0
+8,177,Javelin,1,Piercing,3,1d6,0
+8,178,Light Hammer,1,Bludgeon,2,1d4,0
+8,179,Mace,1,Bludgeon,3,1d6,0
+8,180,Quarterstaff,1,Bludgeon,3,1d6,0
+8,181,Sickle,1,Slashing,2,1d4,0
+8,182,Spear,1,Piercing,3,1d6,0
+8,183,"Crossbow, Light",1,Piercing,4,1d8,1
+8,184,Dart,1,Piercing,2,1d4,0
+8,185,Shortbow,1,Piercing,3,1d6,1
+8,186,Sling,1,Bludgeon,2,1d4,0
+8,187,Battleaxe,1,Slashing,4,1d8,0
+8,188,Flail,1,Bludgeon,4,1d8,0
+8,189,Glaive,1,Slashing,5,1d10,1
+8,190,Greataxe,1,Slashing,6,1d12,1
+8,191,Greatsword,1,Slashing,6,2d6,1
+8,192,Halberd,1,Slashing,5,1d10,1
+8,193,Lance,1,Piercing,6,1d12,0
+8,194,Longsword,1,Slashing,4,1d8,0
+8,195,Maul,1,Bludgeon,6,2d6,1
+8,196,Morningstar,1,Piercing,4,1d8,0
+8,197,Pike,1,Piercing,5,1d10,1
+8,198,Rapier,1,Piercing,4,1d8,0
+8,199,Scimitar,1,Slashing,3,1d6,0
+8,200,Shortsword,1,Piercing,3,1d6,0
+8,201,Trident,1,Piercing,3,1d6,0
+8,202,War Pick,1,Piercing,4,1d8,0
+8,203,Warhammer,1,Bludgeon,4,1d8,0
+8,204,Whip,1,Slashing,2,1d4,0
+8,205,Blowgun,1,Piercing,1,1,0
+8,206,"Crossbow, hand",1,Piercing,3,1d6,0
+8,207,"Crossbow, heavy",1,Piercing,5,1d10,1
+8,208,Longbow,1,Piercing,4,1d8,1
+8,209,Net,1,$,0,$,0
+9,210,Club,1,Bludgeon,2,1d4,0
+9,211,Dagger,1,Piercing,2,1d4,0
+9,212,Greatclub,1,Bludgeon,4,1d8,1
+9,213,Handaxe,1,Slashing,3,1d6,0
+9,214,Javelin,1,Piercing,3,1d6,0
+9,215,Light Hammer,1,Bludgeon,2,1d4,0
+9,216,Mace,1,Bludgeon,3,1d6,0
+9,217,Quarterstaff,1,Bludgeon,3,1d6,0
+9,218,Sickle,1,Slashing,2,1d4,0
+9,219,Spear,1,Piercing,3,1d6,0
+9,220,"Crossbow, Light",1,Piercing,4,1d8,1
+9,221,Dart,1,Piercing,2,1d4,0
+9,222,Shortbow,1,Piercing,3,1d6,1
+9,223,Sling,1,Bludgeon,2,1d4,0
+9,224,Longsword,1,Slashing,4,1d8,0
+9,225,Rapier,1,Piercing,4,1d8,0
+9,226,Shortsword,1,Piercing,3,1d6,0
+9,227,"Crossbow, hand",1,Piercing,3,1d6,0
+10,228,Dagger,1,Piercing,2,1d4,0
+10,229,Quarterstaff,1,Bludgeon,3,1d6,0
+10,230,"Crossbow, Light",1,Piercing,4,1d8,1
+10,231,Dart,1,Piercing,2,1d4,0
+10,232,Sling,1,Bludgeon,2,1d4,0
+11,233,Club,1,Bludgeon,2,1d4,0
+11,234,Dagger,1,Piercing,2,1d4,0
+11,235,Greatclub,1,Bludgeon,4,1d8,1
+11,236,Handaxe,1,Slashing,3,1d6,0
+11,237,Javelin,1,Piercing,3,1d6,0
+11,238,Light Hammer,1,Bludgeon,2,1d4,0
+11,239,Mace,1,Bludgeon,3,1d6,0
+11,240,Quarterstaff,1,Bludgeon,3,1d6,0
+11,241,Sickle,1,Slashing,2,1d4,0
+11,242,Spear,1,Piercing,3,1d6,0
+11,243,"Crossbow, Light",1,Piercing,4,1d8,1
+11,244,Dart,1,Piercing,2,1d4,0
+11,245,Shortbow,1,Piercing,3,1d6,1
+11,246,Sling,1,Bludgeon,2,1d4,0
+12,247,Dagger,1,Piercing,2,1d4,0
+12,248,Quarterstaff,1,Bludgeon,3,1d6,0
+12,249,"Crossbow, Light",1,Piercing,4,1d8,1
+12,250,Dart,1,Piercing,2,1d4,0
+12,251,Sling,1,Bludgeon,2,1d4,0

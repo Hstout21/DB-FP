@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, request, flash, redirect, url_for,
 from flask_login import login_required, current_user
 from .models import User, Player, Classtype, Armor, Weapon, Spell, Wildshape
 from . import db
-from sqlalchemy import func, select
+from sqlalchemy import func, select, desc
 import json
 
 views = Blueprint('views', __name__)
@@ -28,7 +28,11 @@ def home():
 @views.route('/locker', methods=['GET', 'POST'])
 @login_required
 def locker():
-    return render_template("locker.html", user=current_user, players=Player.query.filter_by(user_id=current_user.id))
+    
+    players = db.session.query(Player).join(User).filter_by(id=current_user.id).order_by(desc(Player.id))
+    print(players)
+    
+    return render_template("locker.html", user=current_user, players=players)
 
 @views.route('/create', methods=['GET', 'POST'])
 @login_required

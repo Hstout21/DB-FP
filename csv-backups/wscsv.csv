@@ -1,0 +1,15 @@
+﻿class_id,id,name,req_lvl,dmg_type,dmg_stat,hit_dice,temp_ac,temp_hp
+4,1,Boar,2,Bludgeon,4,1d6+1,11,11
+4,2,Giant Wolf Spider,2,Bludgeon,4,1d6+1,13,11
+4,3,Dire Wolf,2,Bludgeon,6,2d6+3,14,37
+4,4,Giant Hyena,2,Bludgeon,6,2d6+3,12,45
+4,5,Giant Octupus,2,Bludgeon,6,2d6+3,11,52
+4,6,Giant Toad,2,Bludgeon,12,2d10+2,11,39
+4,7,Giant Constrictor Snake,6,Bludgeon,12,2d8+4,12,60
+4,8,Saber-Tooth Tiger,6,Bludgeon,11,2d6+5,12,52
+4,9,Ankylosaurus,9,Bludgeon,16,4d6+4,15,68
+4,10,Giant Scorpion,9,Bludgeon,27,5d10+2,15,52
+4,11,Killer Whale,9,Bludgeon,19,5d6+4,12,90
+4,12,Giant Crocodile,15,Bludgeon,33,2d8+5 + 3d10+5,14,85
+4,13,Giant Shark,15,Bludgeon,21,3d10+6,13,126
+4,14,Mamoth,18,Bludgeon,50,4d8 + 7 + 4d10 + 7,13,126
