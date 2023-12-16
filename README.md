@@ -24,7 +24,7 @@
 
 ## ER-Diagram
 
-<img src="README-images/erdiagram.png" title="ER-Diagram" height="400px" width="200px">
+<img src="README-images/erdiagram.png" title="ER-Diagram" height="400px" width="300px">
 <br>
 
 ## Query Types
