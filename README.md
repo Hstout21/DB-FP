@@ -29,13 +29,22 @@
 
 ## Query Types
 
-* Querry used to grab all Players belonging to the current user, in desc. player.id order... Basically is to sort by newest player.
+* Query used to grab all Players belonging to the current user, in desc. player.id order... Basically is to sort by newest player.
   * SELECT * AS (Attribute Names) 
   * FROM Player JOIN User ON User.id = Player.user_id
   * WHERE User.id = current_user.id (UserMixin) ORDER BY player.id DESC
 
-* Querry used to see if class attribute exists based on user's input for name & classtype id.
+* Query used to see if class attribute exists based on user's input for name & classtype id.
   * SELECT Classtype.name FROM Classtype WHERE Classtype.class_id = (User Input) AND Classtype.name = (User Input)
 
-* Querry used on a few pages for finding the class a player chooses.
+* Query used on a few pages for finding the class a player chooses.
   * SELECT * FROM Classtype WHERE id = (User input)
+
+* Query used to delete a player based on user input.
+  * DELETE FROM Player WHERE id = (User input)
+
+* Several create tables queries.
+  * CREATE TABLE (Name)
+    * FOREIGN KEY (..._id) REFERENCES (Parent)
+    * PRIMARY KEY (id)
+    * (Attribute Name) (int or varchar(150))
